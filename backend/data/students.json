@@ -1,0 +1,115 @@
+{
+	"students": [
+		{
+			"name": "Jim Carrey",
+			"grade": 12,
+			"profile": "real",
+			"school": "Lyceum of the Academy of Sciences of Moldova",
+			"region/ localty": "Chisinau/ Chisinau",
+			"tests":[
+				{
+					"test_id": 0,
+					"subject_id": 0,
+					"test_date":1525305600,
+					"time": 1200,
+					"number_of_points": 8 
+				},
+				{
+					"test_id": 1,
+					"subject_id": 1,
+					"test_date":1525305600,
+					"time": 1400,
+					"number_of_points": 10 
+				}
+
+			],
+			"activities":[
+				{
+					"name":"International Student Competition - Microelectronics system engineering Sergiu Radautan",
+					"date": 1525996800,
+					"place": 3
+				},
+				{
+					"name":"International Student Competition - Electromobility",
+					"date": 1525996800,
+					"place": 1
+				},
+				{
+					"name":"International Student Competition - Earth Rover",
+					"date": 1540080000,
+					"place": 4
+				}
+			]
+		},
+		{
+			"name": "Jim Carrey2",
+			"grade": 11,
+			"profile": "humanist",
+			"school": "Lyceum of the Academy of Sciences of Moldova",
+			"region/ localty": "Chisinau/ Chisinau",
+			"tests":[
+				{
+					"test_id": 1,
+					"subject_id": 1,
+					"test_date":1525305600,
+					"time": 1000,
+					"number_of_points": 6 
+				}
+			],
+			"activities":[
+				{
+					"name":"International Student Competition - Robochallenge",
+					"date": 1540080000,
+					"place": 2
+				},
+
+				{
+					"name":"Girls Go IT Summer Camp 2016 edition",
+					"date": 1470873600
+				},
+				{
+					"name":"FEST Summer Camp 2016",
+					"date": 1471996800
+				}
+			]
+		},
+		{
+			"name": "Jim Carrey3",
+			"grade": 9,
+			"profile": "gymnasium",
+			"school": "Teoretical Lyceym - Mihail Sadoveau",
+			"region/ localty": "Calarasi/ Calarasi",
+			"tests":[
+			],
+			"activities":[
+				{
+					"name":"Girls Go IT STEM Summer Camp 2018",
+					"date": 1531267200
+				},
+
+				{
+					"name":"Diamond Challenge Moldova 2017",
+					"date": 1484438400,
+					"place": 1
+				},
+
+				{
+					"name":"technovation Challenge Moldova 2017",
+					"date": 1492992000,
+					"place":"participation"
+				},
+
+				{
+					"name":"Micro Lab Summer School - Embedded Systems Development",
+					"date": 1530576000
+				},
+
+				{
+					"name":"FAF Hackathon 2018 Spring Edition",
+					"date": 1530576000,
+					"place": 2
+				}
+			]
+		}
+	]
+}
