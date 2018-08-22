@@ -1,0 +1,132 @@
+{
+	"subjects": [
+		{
+			"name": "Informatics",
+			"description": "mujik",
+			"tests":[
+				{
+					"name": "HTML & CSS",
+					"description" : "lalala",
+					"guestions": [
+						{
+							"description": "Which one is reusable component in Informatica?", 
+							"answers": [
+								"Mapping",
+								"Mapplet",
+								"Session",
+								"Workflow"
+							],
+							"correct_answers": [1]
+						}
+						{
+							"description": "Which is the minimum transformation required in mpping?",
+							"answers": [				
+								"Source qualifier",
+								"source and target",
+								"Filter",
+								"None of the above"
+							],
+							"correct_answers": [2]
+						}
+
+						{
+							"description": "Which of the following transformation is not a Active transformation?",
+							"answers": [
+								"Aggregator",
+								"Union",
+								"Lookup",
+								"Source Qualifier"
+							],
+							"correct_answers": [4]
+						}
+						{
+							"description": "ETL Means:",
+							"answers": [
+						    "Extraction,transformation and loading",
+								"Extract transactions and load",
+								"Enable transactions and load",
+								"All the above"
+							],
+							"correct_answers": [3]
+						}
+						{
+							"description": "Which of the following is Informatica PowerCenter Client Tools?",
+							"answers": [
+								"Designer",
+								"Workflow Manager, Metadata Reporter",
+								"Repository Manager",
+								"All the above"
+							],
+							"correct_answers": [2]
+						}
+					]
+				}
+			]
+		}
+		{
+			"name": "Biology",
+			"description": "important to study!",
+			"tests":[
+				{
+					"name": "Crustacee",
+					"description" : "hahaha",
+					"guestions":[
+						{
+							"description": "Which of the following techniques could be used to demonstrate protein binding to specific DNA sequences ? ",
+							"answers": [
+
+							],
+							"correct_answers": [2]
+						}
+
+						{
+							"description": "A cell nucleus contains which of the following?",
+							"answers": [
+							],
+							"correct_answers": [2]
+						}
+
+						{
+							"description": "Which of the following best explains why enzymes are effective in facilitating chemical reactions? ",
+							"answers": [
+							],
+							"correct_answers": [2]
+						}
+
+						{
+							"description": "Approximately what fraction of the human genome encodes proteins? ",
+							"answers": [
+							],
+							"correct_answers": [2]
+						}
+
+						{
+							"description": "Which of the following contain DNA sequences required for the segregation of chromosomes in mitosis and meiosis? ",
+							"answers": [
+							],
+							"correct_answers": [2]
+						}
+					]
+				}
+			]
+		}
+		{
+			"name": "Chemistry",
+			"description": "many students don't like it(",
+			"tests":[
+			]
+		}
+		{
+			"name": "Maths",
+			"description": "develops logical skills",
+			"tests":[
+			]
+		}
+		{
+			"name": "Physics",
+			"description": "every engineer should know)",
+			"tests":[
+			]
+		}
+	]
+}
