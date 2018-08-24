@@ -3,4 +3,6 @@
     <string name="title_activity_time_line">TimeLineActivity</string>
     <string name="testimage">TestImage</string>
     <string name="PointsText">Points</string>
+    <string name="testButtonText">Tests</string>
+    <string name="achievementButtonText">Achievements</string>
 </resources>

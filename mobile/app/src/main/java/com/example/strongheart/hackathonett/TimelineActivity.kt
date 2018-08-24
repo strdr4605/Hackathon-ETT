@@ -17,31 +17,11 @@ class TimelineActivity : Activity() {
         timelineRecyclerAdapter = TimelineRecyclerAdapter()
         recycler_view.adapter = timelineRecyclerAdapter
         recycler_view.layoutManager = LinearLayoutManager(this)
-        for (i in 0..5) {
-            timelineRecyclerAdapter.addTimepoint(timepoints[i])
-            timelineRecyclerAdapter.addEvent(eventList[i])
+        for (i in 0..10) {
+            val timepoint = Timepoint("24 hours")
+            timelineRecyclerAdapter.addTimepoint(timepoint)
+            val event = Event("calculus", "bestTest", 24)
+            timelineRecyclerAdapter.addEvent(event)
         }
     }
-
-    companion object FakeData {
-
-        val timepoints: ArrayList<Timepoint> = arrayListOf(
-                Timepoint("6 hours"),
-                Timepoint("24 hours"),
-                Timepoint("1 day"),
-                Timepoint("2 days"),
-                Timepoint("3 days"),
-                Timepoint("1 week"))
-
-        val eventList: ArrayList<Event> = arrayListOf(
-                Event("calculus", "bestTest", 24),
-                Event("calculus", "bestTest", 24),
-                Event("calculus", "bestTest", 24),
-                Event("calculus", "bestTest", 24),
-                Event("calculus", "bestTest", 24),
-                Event("calculus", "bestTest", 24, true)
-        )
-
-    }
-
 }
