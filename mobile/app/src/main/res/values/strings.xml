@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Hackathon ETT</string>
+    <string name="title_activity_time_line">TimeLineActivity</string>
+    <string name="testimage">TestImage</string>
+    <string name="PointsText">Points</string>
 </resources>
